@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lance Meara | Portfolio</title>
+
+    <!-- JQuery -->
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+
+    <!--Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light white-drop top-bottom-bg header-font">
+
+            <a class="nav-link header-font-logo header-links" href="/index.html">LANCE MEARA</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto header-list">
+                    <li class="nav-item">
+                        <a class="nav-link header-links header-font-other" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-links header-font-other" href="#featured">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-links header-font-other" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="small-spacer"></div>
+
+    <!-- content -->
+    <section id="all-content" class="container">
+
+        <section id="introduction">
+            <div class="card col col-lg-12 col-md-12 border-0">
+                <div class="card-body intros">
+                    <p id="big-text" class="card-title">lance</p>
+                    <p id="big-text" class="card-title">meara</p>
+                    <p id="small-text" class="card-text">a flourishing full stack web developer.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer"></div>
+
+        <section id="about-me">
+            <div class="card col col-lg-12 col-md-12 border-0">
+                <div class="card-body intros">
+                    <p id="big-text" class="card-title">about me</p>
+                    <div class="title-body-spacer"></div>
+                    <p class="card-text main-small-text">My name is Lance Meara, I am currently 20 years old, and
+                        reside in Dallas,
+                        Texas.
+                        <br><br>
+                        I am a full stack web developer with a passion for developing web applications.
+                        <br>
+                        The complex problems that come with backend development and the unique quirks of coming up with
+                        a consumer facing UI are something that interest me greatly due to the unique challenges
+                        produced by each.
+                        <br><br>
+                        While I
+                        am proficient in both backend and frontend development, I do prefer backend development more.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer"></div>
+
+        <section id="featured">
+            <div class="card col col-lg-12 col-md-12 border-0">
+                <div class="card-body intros">
+                    <p id="big-text" class="card-title">featured</p>
+                    <div class="title-body-spacer"></div>
+                    <div class="card border-0">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img class="img-drop-big" src="./images/trivia.png" style="height: 100%; width: 100%;">
+                            </div>
+                            <div class="col-md-7 px-3">
+                                <div class="card-block px-3">
+                                    <h2 class="card-title project-title">QuizMe</h2>
+                                    <p class="">QuizMe is a full stack application that is designed to test
+                                        the brain power of the user.<br><br>
+                                        The application is designed to create new quizes everyday and keep track of the
+                                        users score. The score is then displayed on the leaderboard depending on if it
+                                        is high compared to other users globally!</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row"><a style="float: inline-end" href="#"
+                                    class="col-md-8 offset-md-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer"></div>
+
+        <section id="projects">
+            <div class="card col col-lg-12 col-md-12 border-0">
+                <div class="card-body intros">
+                    <p id="big-text" class="card-title">other</p>
+                    <p id="big-text" class="card-title">projects</p>
+                    <div class="title-body-spacer"></div>
+                    <div class="row">
+                        <div class="card-deck">
+                            <div class="card border-0">
+                                <img class="img-drop-big project-img-size card-img-top" src="./images/rost.png">
+                                <div class="card-body text-center project-card">
+                                    <h2 class="card-title project-title">R.O.S.T</h2>
+                                    <p class="card-text">A frontend application over simplifying the stock buying
+                                        process.</p>
+                                </div>
+                                <div class="row">
+                                    <a href="#"
+                                        class="col-md-8 offset-md-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <img class="img-drop-big project-img-size card-img-top" src=" ./images/rps.png">
+                                <div class="card-body text-center project-card">
+                                    <h2 class="card-title project-title">Multiplayer RPS</h2>
+                                    <p class="card-text">A frontend application using a realtime database to connect two
+                                        players
+                                        together to play RPS.</p>
+                                </div>
+                                <div class="row">
+                                    <a href="#"
+                                        class="col-md-8 offset-md-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
+                                </div>
+                            </div>
+                            <div class="card border-0">
+                                <img class="img-drop-big project-img-size img-bg card-img-top" src="
+                                        ./images/burgers.png">
+                                <div class="card-body text-center project-card">
+                                    <h2 class="card-title project-title">Burger Maker</h2>
+                                    <p class="card-text">A full stack application using a database to create and eat
+                                        burgers.</p>
+                                </div>
+                                <div class="row">
+                                    <a href="#"
+                                        class="col-md-8 offset-md-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer"></div>
+
+        <section id="languages">
+            <div class="card col col-lg-12 col-md-12 border-0">
+                <div class="card-body intros">
+                    <p id="big-text" class="card-title">coding</p>
+                    <p id="big-text" class="card-title">languages</p>
+                    <div class="title-body-spacer"></div>
+                    <div class="card-deck">
+                        <div class="card border-0">
+                            <div class="card-body project-card">
+                                <h2 class="card-title project-title">Frontend</h2>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JQuery</li>
+                                        <li>Various CSS Frameworks</li>
+                                        <li>Various JS Libraries</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <div class="card-body project-card">
+                                <h2 class="card-title project-title">Backend</h2>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Node</li>
+                                        <li>Express</li>
+                                        <li>MySQL</li>
+                                        <li>MongoDB</li>
+                                        <li>Firebase</li>
+                                    </ul>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <div class="card-body project-card">
+                                <h2 class="card-title project-title">Other</h2>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Java</li>
+                                        <li>Python</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="spacer"></div>
+
+    </section>
+
+    <!-- footer -->
+    <section id="contact">
+        <footer class="white-drop text-center top-bottom-bg">
+            <div class="card no-bg">
+                <div class="card-body intros footer-card rounded-lg white-drop">
+                    <p id="big-text2" class="card-title">contact</p>
+
+                    <div class="title-body-spacer"></div>
+                    <ul class="text-section-info small-text text-left">
+                        <li><a class="link-color" href="https://www.linkedin.com/in/lance-meara-591121190/"
+                                target="_blank">LinkedIn</a>
+                        </li>
+                        <li><a class="link-color" href="https://github.com/lancemgit" target="_blank">GitHub -
+                                (lancemgit)</a></li>
+                        <li><a class="link-color" href="mailto:meara.ty@gmail.com" target="_top">Email -
+                                (meara.ty@gmail.com)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+</body>
+
+<!-- Local -->
+<script src="./js/app.js"></script>
+<link rel="stylesheet" href="./css/style.css">
+
+
+</html>
