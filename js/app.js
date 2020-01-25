@@ -1,6 +1,5 @@
 $(document).ready(function () {
     $("a").on('click', function (event) {
-        console.log("someting");
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
