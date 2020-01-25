@@ -95,7 +95,6 @@
 
 img {
     transition: transform 1s;
-    z-index: 100;
 }
 
 img:hover {
@@ -150,4 +149,37 @@ img:hover {
 
 .top-spacer2 {
     margin-top: 2.1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    #big-text {
+        font-size: 10vw;
+    }
+    #big-text2 {
+        font-size: 6.5vw;
+    }
+    .project-img-size {
+        height: 10rem;
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #big-text {
+        font-size: 10.5vw;
+    }
+    #big-text2 {
+        font-size: 8vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #big-text {
+        font-size: 12.5vw;
+    }
+    #big-text2 {
+        font-size: 9.5vw;
+    }
 }
