@@ -24,8 +24,8 @@
 }
 
 .spacer {
-    margin-top: 25vh;
-    margin-bottom: 25vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 }
 
 .small-spacer {
@@ -95,6 +95,7 @@
 
 img {
     transition: transform 1s;
+    z-index: 100;
 }
 
 img:hover {
@@ -141,4 +142,12 @@ img:hover {
 
 .no-bg {
     background-color: transparent;
+}
+
+.top-spacer {
+    margin-top: 4.2rem;
+}
+
+.top-spacer2 {
+    margin-top: 2.1rem;
 }
