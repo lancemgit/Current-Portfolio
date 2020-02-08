@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
     <title>Lance Meara | Portfolio</title>
 </head>
 
@@ -55,9 +64,8 @@
                 <div class="card-body intros">
                     <p id="big-text" class="card-title">about me</p>
                     <div class="title-body-spacer"></div>
-                    <p class="card-text">My name is Lance Meara, I am 20 years old, and currently
-                        reside in Dallas,
-                        Texas.
+                    <p class="card-text">My name is Lance Meara, I am 20 years old, and I currently
+                        reside in Dallas, Texas.
                         <br><br>
                         I am a full stack web developer with a passion for developing web applications.
                         <br>
@@ -93,7 +101,6 @@
                                         users score. The score is then displayed on the leaderboard depending on if it
                                         is high compared to other users globally!</p>
                                 </div>
-
                             </div>
                         </div>
                         <div class="top-spacer"></div>
@@ -114,75 +121,71 @@
                     <p id="big-text" class="card-title">other</p>
                     <p id="big-text" class="card-title">projects</p>
                     <div class="title-body-spacer"></div>
-                    <div class="row">
-                        <div class="card-deck">
-                            <div class="card border-0">
-                                <img class="img-drop-big project-img-size card-img-top" src="./images/rost.png">
-                                <div class="card-body text-center project-card">
-                                    <h2 class="card-title project-title">R.O.S.T</h2>
-                                    <p class="card-text">A frontend application simplifying the stock buying
-                                        process.</p>
-                                </div>
-                                <div class="row top-spacer2">
-                                    <a href="https://github.com/lancemgit/ROST" target="_blank"
-                                        class="col-sm-8 offset-sm-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
-                                </div>
-                                <div class="top-spacer"></div>
+                    <div class="card-deck">
+                        <div class="card border-0">
+                            <img class="img-drop-big project-img-size card-img-top" src="./images/rost.png">
+                            <div class="card-body text-center project-card">
+                                <h2 class="card-title project-title">R.O.S.T</h2>
+                                <p class="card-text">A frontend application simplifying the stock buying
+                                    process.</p>
                             </div>
-                            <div class="card border-0">
-                                <img class="img-drop-big project-img-size card-img-top" src=" ./images/rps.png">
-                                <div class="card-body text-center project-card">
-                                    <h2 class="card-title project-title">Multiplayer RPS</h2>
-                                    <p class="card-text">A frontend application using a realtime database to connect two
-                                        players
-                                        together to play RPS.</p>
-                                </div>
-                                <div class="row top-spacer2">
-                                    <a href="https://github.com/lancemgit/RPS-Multiplayer" target="_blank"
-                                        class="col-sm-8 offset-sm-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
-                                </div>
-                                <div class="top-spacer"></div>
+                            <div class="row top-spacer2">
+                                <a href="https://github.com/lancemgit/ROST" target="_blank"
+                                    class="col-sm-8 offset-sm-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
                             </div>
-                            <div class="card border-0">
-                                <img class="img-drop-big project-img-size img-bg card-img-top" src="
-                                        ./images/burgers.png">
-                                <div class="card-body text-center project-card">
-                                    <h2 class="card-title project-title">Burger Maker</h2>
-                                    <p class="card-text">A full stack application using a SQL database to create and eat
-                                        user created burgers.</p>
-                                </div>
-                                <div class="row top-spacer2">
-                                    <a href="https://github.com/lancemgit/Burger-App" target="_blank"
-                                        class="col-sm-8 offset-sm-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
-                                </div>
-                                <div class="top-spacer"></div>
-                            </div>
+                            <div class="top-spacer"></div>
                         </div>
+                        <div class="card border-0">
+                            <img class="img-drop-big project-img-size card-img-top" src=" ./images/rps.png">
+                            <div class="card-body text-center project-card">
+                                <h2 class="card-title project-title">Multiplayer RPS</h2>
+                                <p class="card-text">A frontend application using a realtime database to connect two
+                                    players
+                                    together to play RPS.</p>
+                            </div>
+                            <div class="row top-spacer2">
+                                <a href="https://github.com/lancemgit/RPS-Multiplayer" target="_blank"
+                                    class="col-sm-8 offset-sm-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
+                            </div>
+                            <div class="top-spacer"></div>
+                        </div>
+                        <div class="card border-0">
+                            <img class="img-drop-big project-img-size img-bg card-img-top" src="
+                                        ./images/burgers.png">
+                            <div class="card-body text-center project-card">
+                                <h2 class="card-title project-title">Burger Maker</h2>
+                                <p class="card-text">A full stack application using a SQL database to create and eat
+                                    user created burgers.</p>
+                            </div>
+                            <div class="row top-spacer2">
+                                <a href="https://github.com/lancemgit/Burger-App" target="_blank"
+                                    class="col-sm-8 offset-sm-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
+                            </div>
+                            <div class="top-spacer"></div>
+                        </div>
+
                     </div>
 
                     <!-- second row of projects -->
-                    <div class="row">
-                        <div class="card-deck">
-                            <div class="card border-0">
-                                <img class="img-bg2 img-drop-big project-img-size card-img-top"
-                                    src="./images/finder.png">
-                                <div class="card-body text-center project-card">
-                                    <h2 class="card-title project-title">Friend Finder</h2>
-                                    <p class="card-text">A fullstack application that uses a simple algorithm to
-                                        link you with fake people.</p>
-                                </div>
-                                <div class="row top-spacer2">
-                                    <a href="https://github.com/lancemgit/Friend-Finder" target="_blank"
-                                        class="col-sm-8 offset-sm-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
-                                </div>
-                                <div class="top-spacer"></div>
+                    <div class="card-deck">
+                        <div class="card border-0">
+                            <img class="img-bg2 img-drop-big project-img-size card-img-top" src="./images/finder.png">
+                            <div class="card-body text-center project-card">
+                                <h2 class="card-title project-title">Friend Finder</h2>
+                                <p class="card-text">A fullstack application that uses a simple algorithm to
+                                    link you with fake people.</p>
                             </div>
-                            <div class="card border-0">
-                                <!-- filler -->
+                            <div class="row top-spacer2">
+                                <a href="https://github.com/lancemgit/Friend-Finder" target="_blank"
+                                    class="col-sm-8 offset-sm-2 btn bg-gradient-btn button-spacer font-weight-bold">GitHub</a>
                             </div>
-                            <div class="card border-0">
-                                <!-- filler -->
-                            </div>
+                            <div class="top-spacer"></div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- filler -->
+                        </div>
+                        <div class="card border-0">
+                            <!-- filler -->
                         </div>
                     </div>
                 </div>
@@ -285,19 +288,15 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <!-- Bootstrap -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
-<!--Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 <!-- Local -->
 <script src="./js/app.js"></script>
-<link rel="stylesheet" href="./css/style.css">
+
 
 </html>
